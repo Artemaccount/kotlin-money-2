@@ -16,7 +16,7 @@ class MainKtAdvancedTest(
     fun commission_correct_values_test(){
         val actualDiscount = getCommission(userType, monthTransferSum, remittanceAmount)
         assertEquals(expectedDiscount, actualDiscount)
-        //for test
+        //test
     }
 
     companion object {
